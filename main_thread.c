@@ -15,9 +15,9 @@ void* thread1_function(void* arg)
 
 void* thread2_function(void* arg)
 {
-    for(int i = 5; i < 10; i++)
+    for(int i = 0; i < 5; i++)
     {
-        printf("Thread 2 running: %d\n", i);
+        printf("Thread 2 running: %d\n", i+2);
         sleep(1);
     }
 
