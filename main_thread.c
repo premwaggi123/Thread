@@ -1,4 +1,5 @@
 // test
+//This is thred program
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
